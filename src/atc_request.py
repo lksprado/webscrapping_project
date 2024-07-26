@@ -5,12 +5,21 @@ import pandas as pd
 import datetime
 import logging
 
+
+# Configure logging
+logging.basicConfig(
+    filename='./logs/atacadao_scrapper.log',  # Log file name
+    level=logging.INFO,                # Log level
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
 class AtacadaoScrapper:
     def __init__(self):
         self.origin = "https://www.atacadao.com.br/api/graphql?operationName=ProductsQuery&variables="
         self.results_quantity = 100
         self.keyword = ''
         self.http = self._configure_session()
+        logging.info("Initialized AtacadaoScrapper")
     
 
     def _configure_session(self):
@@ -22,6 +31,8 @@ class AtacadaoScrapper:
         session = requests.Session() # TO PERSIST SESSION VARIABLES FOR THE FOLLOWING REQUESTS
         session.mount("https://",adapter)
         session.mount("http://",adapter)
+        
+        logging.info("HTTP session configured with retries")
         return session
     
 
@@ -36,9 +47,11 @@ class AtacadaoScrapper:
             if response.status_code == 200:
                 return response.json()
             else:
-                raise(response.status_code)
-        except:
-            raise(response.status_code)
+                logging.warning("Failed to fetch products. Status code: %d", response.status_code)
+                return None
+        except Exception as e:
+            logging.error("Error occurred while fetching products: %s", e)
+            return None
     
     def extract_data(self, data):
         products = []
@@ -61,6 +74,8 @@ class AtacadaoScrapper:
                 'tax':tax
             }
             products.append(product)
+            
+        logging.info("Extracted %d products from data", len(products))
         return products
     
 
@@ -69,11 +84,13 @@ class AtacadaoScrapper:
         data = self.search_products(keyword)
         if data: # checks if data is not empty so it can start the extraction, if not, returns empty
             return self.extract_data(data)
+        logging.warning("No data found for keyword: %s", keyword)
         return []   
 
     def sku_filtering(self, products, skus):
         '''FILTERS THE PRODUCTS BASED ON SKU LIST'''
         filtered_products = [product for product in products if product['sku'] in skus]
+        logging.info("Filtered products down to %d items based on SKU list", len(filtered_products))
         return filtered_products
 
     def save_to_csv(self, products, file_path):
@@ -88,3 +105,5 @@ class AtacadaoScrapper:
         # ADD CURRENT DATE
         df['date_scrapped'] = datetime.datetime.now().strftime('%Y-%m-%d')
         df.to_csv(file_path, index=False)
+        
+        logging.info("Saved data to %s with %d products", file_path, len(df))

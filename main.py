@@ -1,6 +1,9 @@
 from src.atc_request import AtacadaoScrapper
 from src.product_reader import ProductReader
 import datetime
+import logging
+
+
 
 if __name__ == "__main__":
     # Initialize and configure ProductReader
@@ -21,23 +24,11 @@ if __name__ == "__main__":
         if products_data:
             all_products_data.extend(products_data)
             
-    print(all_products_data)
     filtered_products = scraper.sku_filtering(all_products_data, sku_code)
     
     file_date = datetime.datetime.now().strftime('%Y-%m-%d')    
     
-    # Save filtered products to an Excel file
-    if filtered_products:
-        file_path = f'/media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped{file_date}.csv'
-        scraper.save_to_csv(filtered_products, file_path)
-        print(f"Filtered data saved to {file_path}")
-    else:
-        print("No data found")
-    
-    
-    # if all_products_data:
-    #     file_path = f'/media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped{file_date}.csv'
-    #     scraper.save_to_csv(all_products_data, file_path)
-    #     print(f"Filtered data saved to {file_path}")
-    # else:
-    #     print("No data found")
+    # Save filtered products to an CSV file
+    file_path = f'/media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped{file_date}.csv'
+    scraper.save_to_csv(filtered_products, file_path)
+
