@@ -1,7 +1,7 @@
 from src.atc_request import AtacadaoScrapper
 from src.product_reader import ProductReader
 import datetime
-import logging
+
 
 
 
