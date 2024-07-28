@@ -1,3 +1,5 @@
+#! ./.venv/bin/python
+
 from src.atc_request import AtacadaoScrapper
 from src.product_reader import ProductReader
 import datetime
@@ -29,6 +31,7 @@ if __name__ == "__main__":
     file_date = datetime.datetime.now().strftime('%Y-%m-%d')    
     
     # Save filtered products to an CSV file
-    file_path = f'/media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped{file_date}.csv'
+    # file_path = f'/media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped{file_date}.csv' # PATH TO LOCAL FS
+    file_path = f'/usr/src/app/output/products_scrapped{file_date}.csv' # PATH TO DOCKER FS
     scraper.save_to_csv(filtered_products, file_path)
 
