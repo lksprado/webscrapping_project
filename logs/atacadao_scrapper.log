@@ -1,0 +1,109 @@
+2024-08-02 15:06:46,284 - INFO - Initialized ProductReader with config file: ./.git/config.json
+2024-08-02 15:06:46,284 - INFO - Config file read successfully
+2024-08-02 15:06:46,457 - INFO - Product file read successfully with 45 entries
+2024-08-02 15:06:46,470 - INFO - SKU file read successfully with 111 entries
+2024-08-02 15:06:46,472 - INFO - Standardized SEARCH_LIST with 45 unique items
+2024-08-02 15:06:46,474 - INFO - Standardized SKU list with 107 unique SKUs
+2024-08-02 15:06:46,474 - INFO - HTTP session configured with retries
+2024-08-02 15:06:46,474 - INFO - Initialized AtacadaoScrapper
+2024-08-02 15:06:49,678 - INFO - Extracted 99 products from data
+2024-08-02 15:06:52,243 - INFO - Extracted 97 products from data
+2024-08-02 15:06:54,394 - INFO - Extracted 96 products from data
+2024-08-02 15:06:56,647 - INFO - Extracted 100 products from data
+2024-08-02 15:06:58,694 - INFO - Extracted 100 products from data
+2024-08-02 15:06:59,892 - INFO - Extracted 31 products from data
+2024-08-02 15:07:01,684 - INFO - Extracted 100 products from data
+2024-08-02 15:07:04,433 - INFO - Extracted 93 products from data
+2024-08-02 15:07:07,399 - INFO - Extracted 100 products from data
+2024-08-02 15:07:10,572 - INFO - Extracted 80 products from data
+2024-08-02 15:07:11,467 - INFO - Extracted 11 products from data
+2024-08-02 15:07:12,618 - INFO - Extracted 47 products from data
+2024-08-02 15:07:15,076 - INFO - Extracted 34 products from data
+2024-08-02 15:07:16,974 - INFO - Extracted 100 products from data
+2024-08-02 15:07:18,765 - INFO - Extracted 17 products from data
+2024-08-02 15:07:20,402 - INFO - Extracted 67 products from data
+2024-08-02 15:07:21,425 - INFO - Extracted 52 products from data
+2024-08-02 15:07:22,861 - INFO - Extracted 100 products from data
+2024-08-02 15:07:24,502 - INFO - Extracted 100 products from data
+2024-08-02 15:07:25,718 - INFO - Extracted 26 products from data
+2024-08-02 15:07:29,209 - INFO - Extracted 100 products from data
+2024-08-02 15:07:32,485 - INFO - Extracted 67 products from data
+2024-08-02 15:07:33,716 - INFO - Extracted 48 products from data
+2024-08-02 15:07:36,500 - INFO - Extracted 94 products from data
+2024-08-02 15:07:39,080 - INFO - Extracted 34 products from data
+2024-08-02 15:07:42,021 - INFO - Extracted 100 products from data
+2024-08-02 15:07:45,502 - INFO - Extracted 100 products from data
+2024-08-02 15:07:48,225 - INFO - Extracted 100 products from data
+2024-08-02 15:07:50,612 - INFO - Extracted 100 products from data
+2024-08-02 15:07:51,837 - INFO - Extracted 41 products from data
+2024-08-02 15:07:53,992 - INFO - Extracted 100 products from data
+2024-08-02 15:07:56,449 - INFO - Extracted 100 products from data
+2024-08-02 15:07:58,292 - INFO - Extracted 100 products from data
+2024-08-02 15:08:00,747 - INFO - Extracted 58 products from data
+2024-08-02 15:08:01,673 - INFO - Extracted 13 products from data
+2024-08-02 15:08:02,603 - INFO - Extracted 48 products from data
+2024-08-02 15:08:04,249 - INFO - Extracted 13 products from data
+2024-08-02 15:08:06,790 - INFO - Extracted 21 products from data
+2024-08-02 15:08:09,472 - INFO - Extracted 42 products from data
+2024-08-02 15:08:10,950 - INFO - Extracted 19 products from data
+2024-08-02 15:08:11,805 - INFO - Extracted 16 products from data
+2024-08-02 15:08:13,135 - INFO - Extracted 4 products from data
+2024-08-02 15:08:16,471 - INFO - Extracted 38 products from data
+2024-08-02 15:08:19,589 - INFO - Extracted 50 products from data
+2024-08-02 15:08:20,817 - INFO - Extracted 34 products from data
+2024-08-02 15:08:20,821 - INFO - Filtered products down to 112 items based on SKU list
+2024-08-02 15:10:03,958 - INFO - Initialized ProductReader with config file: ./.git/config.json
+2024-08-02 15:10:03,958 - INFO - Config file read successfully
+2024-08-02 15:10:04,055 - INFO - Product file read successfully with 45 entries
+2024-08-02 15:10:04,067 - INFO - SKU file read successfully with 111 entries
+2024-08-02 15:10:04,069 - INFO - Standardized SEARCH_LIST with 45 unique items
+2024-08-02 15:10:04,069 - INFO - Standardized SKU list with 107 unique SKUs
+2024-08-02 15:10:04,070 - INFO - HTTP session configured with retries
+2024-08-02 15:10:04,070 - INFO - Initialized AtacadaoScrapper
+2024-08-02 15:10:06,090 - INFO - Extracted 99 products from data
+2024-08-02 15:10:08,377 - INFO - Extracted 97 products from data
+2024-08-02 15:10:10,594 - INFO - Extracted 96 products from data
+2024-08-02 15:10:12,643 - INFO - Extracted 100 products from data
+2024-08-02 15:10:14,060 - INFO - Extracted 100 products from data
+2024-08-02 15:10:15,097 - INFO - Extracted 31 products from data
+2024-08-02 15:10:17,251 - INFO - Extracted 100 products from data
+2024-08-02 15:10:18,813 - INFO - Extracted 93 products from data
+2024-08-02 15:10:21,859 - INFO - Extracted 100 products from data
+2024-08-02 15:10:23,908 - INFO - Extracted 80 products from data
+2024-08-02 15:10:25,232 - INFO - Extracted 11 products from data
+2024-08-02 15:10:26,930 - INFO - Extracted 47 products from data
+2024-08-02 15:10:29,439 - INFO - Extracted 34 products from data
+2024-08-02 15:10:31,689 - INFO - Extracted 100 products from data
+2024-08-02 15:10:32,300 - INFO - Extracted 17 products from data
+2024-08-02 15:10:34,862 - INFO - Extracted 67 products from data
+2024-08-02 15:10:35,885 - INFO - Extracted 52 products from data
+2024-08-02 15:10:37,424 - INFO - Extracted 100 products from data
+2024-08-02 15:10:39,062 - INFO - Extracted 100 products from data
+2024-08-02 15:10:40,480 - INFO - Extracted 26 products from data
+2024-08-02 15:10:43,173 - INFO - Extracted 100 products from data
+2024-08-02 15:10:45,814 - INFO - Extracted 67 products from data
+2024-08-02 15:10:48,276 - INFO - Extracted 48 products from data
+2024-08-02 15:10:49,720 - INFO - Extracted 94 products from data
+2024-08-02 15:10:50,835 - INFO - Extracted 34 products from data
+2024-08-02 15:10:51,966 - INFO - Extracted 100 products from data
+2024-08-02 15:10:54,839 - INFO - Extracted 100 products from data
+2024-08-02 15:10:56,266 - INFO - Extracted 100 products from data
+2024-08-02 15:11:00,078 - INFO - Extracted 100 products from data
+2024-08-02 15:11:02,051 - INFO - Extracted 41 products from data
+2024-08-02 15:11:05,280 - INFO - Extracted 100 products from data
+2024-08-02 15:11:07,222 - INFO - Extracted 100 products from data
+2024-08-02 15:11:08,877 - INFO - Extracted 100 products from data
+2024-08-02 15:11:11,020 - INFO - Extracted 58 products from data
+2024-08-02 15:11:13,465 - INFO - Extracted 13 products from data
+2024-08-02 15:11:16,138 - INFO - Extracted 48 products from data
+2024-08-02 15:11:17,561 - INFO - Extracted 13 products from data
+2024-08-02 15:11:19,404 - INFO - Extracted 21 products from data
+2024-08-02 15:11:21,362 - INFO - Extracted 42 products from data
+2024-08-02 15:11:24,012 - INFO - Extracted 19 products from data
+2024-08-02 15:11:25,549 - INFO - Extracted 16 products from data
+2024-08-02 15:11:26,776 - INFO - Extracted 4 products from data
+2024-08-02 15:11:29,134 - INFO - Extracted 38 products from data
+2024-08-02 15:11:30,586 - INFO - Extracted 50 products from data
+2024-08-02 15:11:32,512 - INFO - Extracted 34 products from data
+2024-08-02 15:11:32,516 - INFO - Filtered products down to 112 items based on SKU list
+2024-08-02 15:11:32,520 - INFO - Saved data to /media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped2024-08-02.csv with 112 products

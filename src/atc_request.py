@@ -16,7 +16,7 @@ logging.basicConfig(
 class AtacadaoScrapper:
     def __init__(self):
         self.origin = "https://www.atacadao.com.br/api/graphql?operationName=ProductsQuery&variables="
-        self.results_quantity = 100
+        self.results_quantity = 200
         self.keyword = ''
         self.http = self._configure_session()
         logging.info("Initialized AtacadaoScrapper")
