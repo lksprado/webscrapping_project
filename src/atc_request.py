@@ -16,7 +16,7 @@ logging.basicConfig(
 class AtacadaoScrapper:
     def __init__(self):
         self.origin = "https://www.atacadao.com.br/api/graphql?operationName=ProductsQuery&variables="
-        self.results_quantity = 200
+        self.results_quantity = 100
         self.keyword = ''
         self.http = self._configure_session()
         logging.info("Initialized AtacadaoScrapper")
@@ -107,3 +107,7 @@ class AtacadaoScrapper:
         df.to_csv(file_path, index=False)
         
         logging.info("Saved data to %s with %d products", file_path, len(df))
+        
+        
+        
+        

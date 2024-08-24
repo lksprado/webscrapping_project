@@ -107,3 +107,267 @@
 2024-08-02 15:11:32,512 - INFO - Extracted 34 products from data
 2024-08-02 15:11:32,516 - INFO - Filtered products down to 112 items based on SKU list
 2024-08-02 15:11:32,520 - INFO - Saved data to /media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped2024-08-02.csv with 112 products
+2024-08-02 18:57:10,114 - INFO - Initialized ProductReader with config file: ./.git/config.json
+2024-08-02 18:57:10,114 - INFO - Config file read successfully
+2024-08-02 18:57:10,253 - INFO - Product file read successfully with 45 entries
+2024-08-02 18:57:10,269 - INFO - SKU file read successfully with 111 entries
+2024-08-02 18:57:10,270 - INFO - Standardized SEARCH_LIST with 45 unique items
+2024-08-02 18:57:10,271 - INFO - Standardized SKU list with 107 unique SKUs
+2024-08-02 18:57:10,271 - INFO - HTTP session configured with retries
+2024-08-02 18:57:10,271 - INFO - Initialized AtacadaoScrapper
+2024-08-02 18:57:11,939 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22molho%20de%20tomate%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:11,941 - WARNING - No data found for keyword: molho de tomate
+2024-08-02 18:57:12,981 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22detergente%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:12,981 - WARNING - No data found for keyword: detergente
+2024-08-02 18:57:14,194 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22creme%20dental%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:14,194 - WARNING - No data found for keyword: creme dental
+2024-08-02 18:57:15,421 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22cerveja%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:15,422 - WARNING - No data found for keyword: cerveja
+2024-08-02 18:57:16,561 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22macarrao%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:16,562 - WARNING - No data found for keyword: macarrao
+2024-08-02 18:57:18,390 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22filtro%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:18,390 - WARNING - No data found for keyword: filtro
+2024-08-02 18:57:22,281 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22milho%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:22,281 - WARNING - No data found for keyword: milho
+2024-08-02 18:57:23,818 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22desinfetante%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:23,818 - WARNING - No data found for keyword: desinfetante
+2024-08-02 18:57:25,287 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22leite%20longa%20vida%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:25,287 - WARNING - No data found for keyword: leite longa vida
+2024-08-02 18:57:27,093 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22refrigerante%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:27,094 - WARNING - No data found for keyword: refrigerante
+2024-08-02 18:57:28,323 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22queijo%20parmesao%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:28,323 - WARNING - No data found for keyword: queijo parmesao
+2024-08-02 18:57:29,757 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22agua%20sanitaria%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:29,757 - WARNING - No data found for keyword: agua sanitaria
+2024-08-02 18:57:30,882 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22pao%20de%20forma%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:30,883 - WARNING - No data found for keyword: pao de forma
+2024-08-02 18:57:32,725 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22chocolate%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:32,725 - WARNING - No data found for keyword: chocolate
+2024-08-02 18:57:33,954 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22removedor%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:33,955 - WARNING - No data found for keyword: removedor
+2024-08-02 18:57:35,286 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22arroz%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:35,287 - WARNING - No data found for keyword: arroz
+2024-08-02 18:57:36,616 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22feijao%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:36,617 - WARNING - No data found for keyword: feijao
+2024-08-02 18:57:37,948 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22amaciante%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:37,948 - WARNING - No data found for keyword: amaciante
+2024-08-02 18:57:39,176 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22desodorante%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:39,177 - WARNING - No data found for keyword: desodorante
+2024-08-02 18:57:40,671 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22tira%20manchas%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:40,671 - WARNING - No data found for keyword: tira manchas
+2024-08-02 18:57:41,761 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22salgadinho%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:41,761 - WARNING - No data found for keyword: salgadinho
+2024-08-02 18:57:43,067 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22manteiga%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:43,068 - WARNING - No data found for keyword: manteiga
+2024-08-02 18:57:44,297 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22lava%20roupas%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:44,297 - WARNING - No data found for keyword: lava roupas
+2024-08-02 18:57:45,577 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22sabao%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:45,577 - WARNING - No data found for keyword: sabao
+2024-08-02 18:57:46,959 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22papel%20higienico%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:46,959 - WARNING - No data found for keyword: papel higienico
+2024-08-02 18:57:48,290 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22sabonete%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:48,291 - WARNING - No data found for keyword: sabonete
+2024-08-02 18:57:49,621 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22cafe%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:49,622 - WARNING - No data found for keyword: cafe
+2024-08-02 18:57:50,952 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22shampoo%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:50,953 - WARNING - No data found for keyword: shampoo
+2024-08-02 18:57:52,187 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22vinho%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:52,187 - WARNING - No data found for keyword: vinho
+2024-08-02 18:57:53,492 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22cachaca%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:53,492 - WARNING - No data found for keyword: cachaca
+2024-08-02 18:57:54,492 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22azeite%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:54,492 - WARNING - No data found for keyword: azeite
+2024-08-02 18:57:55,863 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22farinha%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:55,863 - WARNING - No data found for keyword: farinha
+2024-08-02 18:57:57,097 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22pimenta%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:57,097 - WARNING - No data found for keyword: pimenta
+2024-08-02 18:57:59,275 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22ketchup%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:57:59,275 - WARNING - No data found for keyword: ketchup
+2024-08-02 18:58:00,578 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22oregano%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:00,579 - WARNING - No data found for keyword: oregano
+2024-08-02 18:58:01,848 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22gin%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:01,848 - WARNING - No data found for keyword: gin
+2024-08-02 18:58:03,241 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22ajinomoto%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:03,241 - WARNING - No data found for keyword: ajinomoto
+2024-08-02 18:58:04,776 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22molho%20shoyu%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:04,776 - WARNING - No data found for keyword: molho shoyu
+2024-08-02 18:58:06,008 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22mostarda%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:06,008 - WARNING - No data found for keyword: mostarda
+2024-08-02 18:58:07,234 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22leite%20condensado%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:07,234 - WARNING - No data found for keyword: leite condensado
+2024-08-02 18:58:08,454 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22creme%20de%20leite%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:08,455 - WARNING - No data found for keyword: creme de leite
+2024-08-02 18:58:09,896 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22rap%2010%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:09,897 - WARNING - No data found for keyword: rap 10
+2024-08-02 18:58:11,067 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22esponja%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:11,067 - WARNING - No data found for keyword: esponja
+2024-08-02 18:58:12,437 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22chiclete%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:12,437 - WARNING - No data found for keyword: chiclete
+2024-08-02 18:58:13,673 - ERROR - Error occurred while fetching products: HTTPSConnectionPool(host='www.atacadao.com.br', port=443): Max retries exceeded with url: /api/graphql?operationName=ProductsQuery&variables=%7B%22first%22:200,%22after%22:%220%22,%22sort%22:%22score_desc%22,%22term%22:%22limpador%20perfumado%22,%22selectedFacets%22:%5B%7B%22key%22:%22region-id%22,%22value%22:%22U1cjYXRhY2FkYW9icjM0MA==%22%7D,%7B%22key%22:%22channel%22,%22value%22:%22%7B%5C%22salesChannel%5C%22:%5C%221%5C%22,%5C%22seller%5C%22:%5C%22atacadaobr340%5C%22,%5C%22regionId%5C%22:%5C%22U1cjYXRhY2FkYW9icjM0MA==%5C%22%7D%22%7D,%7B%22key%22:%22locale%22,%22value%22:%22pt-BR%22%7D%5D%7D (Caused by ResponseError('too many 500 error responses'))
+2024-08-02 18:58:13,673 - WARNING - No data found for keyword: limpador perfumado
+2024-08-02 18:58:13,673 - INFO - Filtered products down to 0 items based on SKU list
+2024-08-09 18:28:15,862 - INFO - Initialized ProductReader with config file: ./.git/config.json
+2024-08-09 18:28:15,862 - INFO - Config file read successfully
+2024-08-09 18:28:15,983 - INFO - Product file read successfully with 45 entries
+2024-08-09 18:28:15,993 - INFO - SKU file read successfully with 111 entries
+2024-08-09 18:28:15,996 - INFO - Standardized SEARCH_LIST with 45 unique items
+2024-08-09 18:28:15,997 - INFO - Standardized SKU list with 107 unique SKUs
+2024-08-09 18:28:15,998 - INFO - HTTP session configured with retries
+2024-08-09 18:28:15,998 - INFO - Initialized AtacadaoScrapper
+2024-08-09 18:28:18,818 - INFO - Extracted 100 products from data
+2024-08-09 18:28:21,070 - INFO - Extracted 97 products from data
+2024-08-09 18:28:23,733 - INFO - Extracted 94 products from data
+2024-08-09 18:28:26,428 - INFO - Extracted 100 products from data
+2024-08-09 18:28:28,865 - INFO - Extracted 100 products from data
+2024-08-09 18:28:30,254 - INFO - Extracted 31 products from data
+2024-08-09 18:28:31,890 - INFO - Extracted 100 products from data
+2024-08-09 18:28:36,553 - INFO - Extracted 92 products from data
+2024-08-09 18:28:39,503 - INFO - Extracted 100 products from data
+2024-08-09 18:28:41,139 - INFO - Extracted 76 products from data
+2024-08-09 18:28:41,754 - INFO - Extracted 10 products from data
+2024-08-09 18:28:44,095 - INFO - Extracted 45 products from data
+2024-08-09 18:28:45,651 - INFO - Extracted 31 products from data
+2024-08-09 18:28:47,157 - INFO - Extracted 100 products from data
+2024-08-09 18:28:48,099 - INFO - Extracted 16 products from data
+2024-08-09 18:28:50,173 - INFO - Extracted 70 products from data
+2024-08-09 18:28:51,788 - INFO - Extracted 49 products from data
+2024-08-09 18:28:54,357 - INFO - Extracted 100 products from data
+2024-08-09 18:28:57,669 - INFO - Extracted 100 products from data
+2024-08-09 18:28:59,538 - INFO - Extracted 29 products from data
+2024-08-09 18:29:01,619 - INFO - Extracted 100 products from data
+2024-08-09 18:29:03,678 - INFO - Extracted 70 products from data
+2024-08-09 18:29:05,509 - INFO - Extracted 48 products from data
+2024-08-09 18:29:08,174 - INFO - Extracted 94 products from data
+2024-08-09 18:29:09,399 - INFO - Extracted 36 products from data
+2024-08-09 18:29:11,245 - INFO - Extracted 100 products from data
+2024-08-09 18:29:13,399 - INFO - Extracted 100 products from data
+2024-08-09 18:29:15,854 - INFO - Extracted 100 products from data
+2024-08-09 18:29:17,660 - INFO - Extracted 100 products from data
+2024-08-09 18:29:19,451 - INFO - Extracted 37 products from data
+2024-08-09 18:29:22,510 - INFO - Extracted 100 products from data
+2024-08-09 18:29:25,479 - INFO - Extracted 100 products from data
+2024-08-09 18:29:27,016 - INFO - Extracted 100 products from data
+2024-08-09 18:29:29,268 - INFO - Extracted 58 products from data
+2024-08-09 18:29:29,981 - INFO - Extracted 13 products from data
+2024-08-09 18:29:32,952 - INFO - Extracted 50 products from data
+2024-08-09 18:29:33,974 - INFO - Extracted 15 products from data
+2024-08-09 18:29:36,432 - INFO - Extracted 24 products from data
+2024-08-09 18:29:37,601 - INFO - Extracted 47 products from data
+2024-08-09 18:29:38,482 - INFO - Extracted 20 products from data
+2024-08-09 18:29:40,015 - INFO - Extracted 14 products from data
+2024-08-09 18:29:41,046 - INFO - Extracted 4 products from data
+2024-08-09 18:29:42,255 - INFO - Extracted 39 products from data
+2024-08-09 18:29:44,738 - INFO - Extracted 52 products from data
+2024-08-09 18:29:46,960 - INFO - Extracted 32 products from data
+2024-08-09 18:29:46,964 - INFO - Filtered products down to 108 items based on SKU list
+2024-08-09 18:29:46,976 - INFO - Saved data to /media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped2024-08-09.csv with 108 products
+2024-08-16 19:31:33,122 - INFO - Initialized ProductReader with config file: ./.git/config.json
+2024-08-16 19:31:33,122 - INFO - Config file read successfully
+2024-08-16 19:31:33,231 - INFO - Product file read successfully with 45 entries
+2024-08-16 19:31:33,240 - INFO - SKU file read successfully with 111 entries
+2024-08-16 19:31:33,243 - INFO - Standardized SEARCH_LIST with 45 unique items
+2024-08-16 19:31:33,244 - INFO - Standardized SKU list with 107 unique SKUs
+2024-08-16 19:31:33,244 - INFO - HTTP session configured with retries
+2024-08-16 19:31:33,244 - INFO - Initialized AtacadaoScrapper
+2024-08-16 19:31:34,590 - INFO - Extracted 100 products from data
+2024-08-16 19:31:37,888 - INFO - Extracted 98 products from data
+2024-08-16 19:31:39,731 - INFO - Extracted 100 products from data
+2024-08-16 19:31:42,803 - INFO - Extracted 100 products from data
+2024-08-16 19:31:44,440 - INFO - Extracted 100 products from data
+2024-08-16 19:31:46,690 - INFO - Extracted 31 products from data
+2024-08-16 19:31:48,025 - INFO - Extracted 100 products from data
+2024-08-16 19:31:49,153 - INFO - Extracted 97 products from data
+2024-08-16 19:31:51,201 - INFO - Extracted 100 products from data
+2024-08-16 19:31:53,451 - INFO - Extracted 84 products from data
+2024-08-16 19:31:54,100 - INFO - Extracted 11 products from data
+2024-08-16 19:31:56,521 - INFO - Extracted 48 products from data
+2024-08-16 19:31:57,544 - INFO - Extracted 31 products from data
+2024-08-16 19:31:59,494 - INFO - Extracted 100 products from data
+2024-08-16 19:32:00,411 - INFO - Extracted 17 products from data
+2024-08-16 19:32:01,642 - INFO - Extracted 66 products from data
+2024-08-16 19:32:02,680 - INFO - Extracted 49 products from data
+2024-08-16 19:32:04,339 - INFO - Extracted 100 products from data
+2024-08-16 19:32:07,583 - INFO - Extracted 100 products from data
+2024-08-16 19:32:08,604 - INFO - Extracted 28 products from data
+2024-08-16 19:32:10,450 - INFO - Extracted 100 products from data
+2024-08-16 19:32:13,316 - INFO - Extracted 67 products from data
+2024-08-16 19:32:15,159 - INFO - Extracted 50 products from data
+2024-08-16 19:32:18,028 - INFO - Extracted 94 products from data
+2024-08-16 19:32:19,018 - INFO - Extracted 36 products from data
+2024-08-16 19:32:21,510 - INFO - Extracted 100 products from data
+2024-08-16 19:32:23,354 - INFO - Extracted 100 products from data
+2024-08-16 19:32:25,073 - INFO - Extracted 100 products from data
+2024-08-16 19:32:26,427 - INFO - Extracted 100 products from data
+2024-08-16 19:32:28,062 - INFO - Extracted 36 products from data
+2024-08-16 19:32:30,009 - INFO - Extracted 100 products from data
+2024-08-16 19:32:33,389 - INFO - Extracted 100 products from data
+2024-08-16 19:32:34,823 - INFO - Extracted 100 products from data
+2024-08-16 19:32:36,256 - INFO - Extracted 58 products from data
+2024-08-16 19:32:36,970 - INFO - Extracted 13 products from data
+2024-08-16 19:32:38,301 - INFO - Extracted 47 products from data
+2024-08-16 19:32:39,085 - INFO - Extracted 15 products from data
+2024-08-16 19:32:40,553 - INFO - Extracted 22 products from data
+2024-08-16 19:32:42,107 - INFO - Extracted 45 products from data
+2024-08-16 19:32:42,806 - INFO - Extracted 20 products from data
+2024-08-16 19:32:43,420 - INFO - Extracted 12 products from data
+2024-08-16 19:32:44,238 - INFO - Extracted 3 products from data
+2024-08-16 19:32:46,083 - INFO - Extracted 39 products from data
+2024-08-16 19:32:47,280 - INFO - Extracted 52 products from data
+2024-08-16 19:32:48,951 - INFO - Extracted 34 products from data
+2024-08-16 19:32:48,955 - INFO - Filtered products down to 103 items based on SKU list
+2024-08-16 19:32:48,960 - INFO - Saved data to /media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped2024-08-16.csv with 103 products
+2024-08-23 17:25:22,575 - INFO - Initialized ProductReader with config file: ./.git/config.json
+2024-08-23 17:25:22,576 - INFO - Config file read successfully
+2024-08-23 17:25:22,748 - INFO - Product file read successfully with 45 entries
+2024-08-23 17:25:22,760 - INFO - SKU file read successfully with 111 entries
+2024-08-23 17:25:22,765 - INFO - Standardized SEARCH_LIST with 45 unique items
+2024-08-23 17:25:22,766 - INFO - Standardized SKU list with 107 unique SKUs
+2024-08-23 17:25:22,767 - INFO - HTTP session configured with retries
+2024-08-23 17:25:22,767 - INFO - Initialized AtacadaoScrapper
+2024-08-23 17:25:26,478 - INFO - Extracted 100 products from data
+2024-08-23 17:25:28,332 - INFO - Extracted 100 products from data
+2024-08-23 17:25:32,429 - INFO - Extracted 99 products from data
+2024-08-23 17:25:33,871 - INFO - Extracted 100 products from data
+2024-08-23 17:25:35,748 - INFO - Extracted 100 products from data
+2024-08-23 17:25:36,729 - INFO - Extracted 31 products from data
+2024-08-23 17:25:39,599 - INFO - Extracted 100 products from data
+2024-08-23 17:25:42,064 - INFO - Extracted 97 products from data
+2024-08-23 17:25:44,521 - INFO - Extracted 100 products from data
+2024-08-23 17:25:46,158 - INFO - Extracted 90 products from data
+2024-08-23 17:25:47,171 - INFO - Extracted 12 products from data
+2024-08-23 17:25:48,811 - INFO - Extracted 49 products from data
+2024-08-23 17:25:50,655 - INFO - Extracted 34 products from data
+2024-08-23 17:25:52,827 - INFO - Extracted 100 products from data
+2024-08-23 17:25:54,043 - INFO - Extracted 17 products from data
+2024-08-23 17:25:56,600 - INFO - Extracted 69 products from data
+2024-08-23 17:25:57,824 - INFO - Extracted 51 products from data
+2024-08-23 17:26:00,086 - INFO - Extracted 100 products from data
+2024-08-23 17:26:02,741 - INFO - Extracted 100 products from data
+2024-08-23 17:26:04,784 - INFO - Extracted 27 products from data
+2024-08-23 17:26:07,892 - INFO - Extracted 100 products from data
+2024-08-23 17:26:09,093 - INFO - Extracted 66 products from data
+2024-08-23 17:26:11,138 - INFO - Extracted 48 products from data
+2024-08-23 17:26:13,378 - INFO - Extracted 94 products from data
+2024-08-23 17:26:14,619 - INFO - Extracted 36 products from data
+2024-08-23 17:26:17,157 - INFO - Extracted 100 products from data
+2024-08-23 17:26:18,570 - INFO - Extracted 100 products from data
+2024-08-23 17:26:20,351 - INFO - Extracted 100 products from data
+2024-08-23 17:26:21,993 - INFO - Extracted 100 products from data
+2024-08-23 17:26:23,215 - INFO - Extracted 37 products from data
+2024-08-23 17:26:25,390 - INFO - Extracted 100 products from data
+2024-08-23 17:26:27,852 - INFO - Extracted 100 products from data
+2024-08-23 17:26:29,774 - INFO - Extracted 100 products from data
+2024-08-23 17:26:31,206 - INFO - Extracted 58 products from data
+2024-08-23 17:26:32,702 - INFO - Extracted 14 products from data
+2024-08-23 17:26:34,484 - INFO - Extracted 48 products from data
+2024-08-23 17:26:35,909 - INFO - Extracted 14 products from data
+2024-08-23 17:26:36,837 - INFO - Extracted 24 products from data
+2024-08-23 17:26:37,967 - INFO - Extracted 46 products from data
+2024-08-23 17:26:38,739 - INFO - Extracted 20 products from data
+2024-08-23 17:26:40,008 - INFO - Extracted 16 products from data
+2024-08-23 17:26:41,851 - INFO - Extracted 4 products from data
+2024-08-23 17:26:43,903 - INFO - Extracted 38 products from data
+2024-08-23 17:26:48,005 - INFO - Extracted 51 products from data
+2024-08-23 17:26:50,970 - INFO - Extracted 36 products from data
+2024-08-23 17:26:50,974 - INFO - Filtered products down to 106 items based on SKU list
+2024-08-23 17:26:50,984 - INFO - Saved data to /media/lucas/Files/2.Projetos/0.mylake/bronze/atacadao_products/products_scrapped2024-08-23.csv with 106 products
